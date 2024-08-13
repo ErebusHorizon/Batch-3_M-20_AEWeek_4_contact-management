@@ -1,0 +1,413 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center; /* Center-align text */
+    font-size: 24px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #f0f; /* গ্রীন ইয়েলো হোভার কালার কোড (এটি একটি উদাহরণ, পরিবর্তন করতে পারেন) */
+    background-color: #c0ff00; /* গ্রীন ইয়েলো ব্যাকগ্রাউন্ড */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #a00909;
+    font-size: 36px; /* Increased font size for h1 */
+}
+
+.header-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-text {
+    margin: 0;
+    padding: 10px;
+    font-size: 32px; /* Increased font size for header text */
+}
+
+.header-link {
+    text-decoration: none;
+    color: #007bff; /* Primary color */
+    font-size: 32px; /* Increased font size for header link */
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker shade on hover */
+}
+
+/* টেবিল */
+
+.table-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table td {
+    vertical-align: middle;
+}
+
+table a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+.table-container {
+    width: 90%; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding around the container */
+    background-color: #fff; /* Ensure the background color */
+    border-radius: 8px; /* Optional: for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: for shadow */
+}
+
+.table-wrapper {
+    overflow-x: auto; /* Enable horizontal scrolling for the table */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px; /* Add space below the table */
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    word-wrap: break-word; /* Ensure text wraps within cells */
+}
+
+/* Sort and Search Container */
+.sort-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the forms */
+    margin-bottom: 20px;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Increased margin-bottom */
+}
+
+.form-inline input[type="text"] {
+    padding: 12px; /* Increased padding */
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 400px; /* Increased width */
+}
+
+.form-inline input[type="text"]::placeholder {
+    color: #6c757d;
+}
+
+.sort-order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.sort-order label {
+    color: #d9534f; /* Red color for labels */
+    margin-right: 10px;
+}
+
+.sort-order select {
+    padding: 10px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px; /* Space between select elements */
+}
+
+.sort-order button {
+    background-color: #d9534f; /* Red background for the button */
+    color: #fff;
+    border: none;
+    padding: 12px 20px; /* Larger button size */
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px; /* Space between button and other elements */
+}
+
+.sort-order button:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}
+
+/* Button Styles */
+.btn {
+    border: none;
+    color: white;
+    padding: 10px 15px; /* Increased padding for larger buttons */
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-delete {
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Additional Styles for Select Elements */
+select {
+    margin: 0 10px;
+    padding: 10px; /* Increased padding for larger select elements */
+    font-size: 16px;
+}
+
+/* Basic pagination styles */
+.pagination-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pagination li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.pagination li a, .pagination li span {
+    color: #007bff;
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pagination li a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.pagination li.active span {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.pagination li.disabled span {
+    color: #6c757d;
+    pointer-events: none;
+}
+
+
+
+/* বেক বাটন */
+.back-button-container {
+    margin-bottom: 20px;
+}
+
+.btn-back {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    background-color: #0056b3;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 40%; /* Increase the size of the card */
+    margin: 20px auto; /* Center the card with some margin */
+    padding: 20px; /* Add padding inside the card */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    border-radius: 8px; /* Slightly round the corners */
+    background-color: #ffffff; /* White background */
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: #b60b0b;
+}
+
+.card-body {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.sort-arrow {
+    font-size: 0.8em;
+    margin-left: 5px;
+    vertical-align: middle;
+    color: #007bff; /* Adjust the color as needed */
+}
+
