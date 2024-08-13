@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 13, 2024 at 07:16 AM
+-- Generation Time: Aug 13, 2024 at 08:36 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -66,13 +66,15 @@ CREATE TABLE `contacts` (
 --
 
 INSERT INTO `contacts` (`id`, `name`, `email`, `phone`, `address`, `created_at`, `updated_at`) VALUES
-(2, 'Redwanযযযযযযযযযযযয', 'redwan@gmail.com', '111122222222223', 'hhhhhhhhhhhhhhhhhhhh', '2024-08-09 10:32:40', '2024-08-11 10:26:27'),
+(2, 'B. Redwanযযযযযযযযযযযয', 'redwan@gmail.com', '111122222222223', 'hhhhhhhhhhhhhhhhhhhh', '2024-08-09 10:32:40', '2024-08-12 23:41:30'),
 (3, 'kamal', 'kamal@gmail.com', '44444444444444444১', 'kkkkkkkkkkkkkkk', '2024-08-09 13:31:29', '2024-08-11 07:51:36'),
 (4, 'kamal', 'sfds@gmail.com', '11111111112', '222222222222222', '2024-08-09 13:31:57', '2024-08-09 13:31:57'),
-(5, 'H.M.Shahidul Islam', 'hmsenterprise00@gmail.com', '017121003323৪', 'House-146, Al-Matin Tower, 2nd Floor, Road no. 13/B, Block-E, Bsnsni, Dhaka-1213.', '2024-08-09 13:33:54', '2024-08-10 02:51:07'),
-(6, 'sfsdg', 'sfsgg@gmail.com', '888888888888888888888888', '8888888888888888888888888', '2024-08-09 13:36:52', '2024-08-09 13:36:52'),
+(5, 'H.M.Shahidul Islam', 'hmsenterprise00@gmail.com', '01712100332', 'House-146, Al-Matin Tower, 2nd Floor, Road no. 13/B, Block-E, Bsnsni, Dhaka-1213.', '2024-08-09 13:33:54', '2024-08-13 00:06:00'),
+(6, 'A. sfsdg', 'sfsgg@gmail.com', '888888888888888888888888', '8888888888888888888888888', '2024-08-09 13:36:52', '2024-08-12 23:41:53'),
 (11, 'Redwann', 'redwadnn@gmail.com', '017121000336', 'ততততততততততততততততততততততততততততততততদদদদদ', '2024-08-10 04:05:26', '2024-08-11 08:41:06'),
-(13, 'Samad', 'samad@gmail.com', '0121312546', 'nfmfl ozkaJDLAl aksxajdoaq LajxOAdx', '2024-08-11 08:01:27', '2024-08-11 08:01:27');
+(13, 'Samad', 'samad@gmail.com', '0121312546', 'nfmfl ozkaJDLAl aksxajdoaq LajxOAdx', '2024-08-11 08:01:27', '2024-08-11 08:01:27'),
+(14, 'Malek', 'malek@gmail.com', '015789455', 'hf ajQHAWIQ', '2024-08-12 23:56:15', '2024-08-12 23:56:15'),
+(15, 'থালেক', 'khalek@gmail.com', '0154454666', 'ppppppppppppppppppppppppppppppppppppppp', '2024-08-13 00:05:07', '2024-08-13 00:05:07');
 
 -- --------------------------------------------------------
 
@@ -199,7 +201,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('NYeM7U7uBhwDaqZAb6wFZyjsY0x2lalxPU1n0HDe', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiaTA5TUhncGw5cjBHSUVmTFlQQWsxZlVTeElBdGFoTzFoOVBxZUNvVCI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzA6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9jb250YWN0cyI7fX0=', 1723394228);
+('8TwRSUBY8yknPXgfj1nrCfiSTSLNFfqHx6c79LVH', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiNGYwb0hyZkZRemNVZ0NzR1pGZDdlcUgyRWExTXVzSkJXdDFHaE1UcSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Njg6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9jb250YWN0cz9zZWFyY2g9aG1zZW50ZXJwcmlzZTAwJTQwZ21haWwuY29tJTA5Ijt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1723530867);
 
 -- --------------------------------------------------------
 
@@ -304,7 +306,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
